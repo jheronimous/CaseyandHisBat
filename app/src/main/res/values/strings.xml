@@ -1,0 +1,14 @@
+<resources>
+    //This is the name of the app.
+    <string name="app_name">Casey and His Bat</string>
+    <string name="action_settings">something here</string>
+    <string name="new_batter">New\nBatter</string>
+    <string name="inning_switch">Inning\nSwitch</string>
+    <string name="out">Out</string>
+    <string name="strike">Strike</string>
+    <string name="ball">Ball</string>
+    <string name="run">Run</string>
+    <string name="zero">0</string>
+    <string name="visitor">Visitor</string>
+    <string name="mudvilleHens">Mudville Hens</string>
+</resources>

@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#663200">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout style="@style/teamContainer">
+
+            <TextView
+                style="@style/teamNames"
+                android:text="@string/mudvilleHens" />
+
+            <TextView
+                android:id="@+id/team_mudville_score"
+                style="@style/actualScores"
+                android:text="@string/zero" />
+
+
+            <LinearLayout style="@style/scoreContainer">
+
+                <TextView
+                    android:id="@+id/team_mudville_strike"
+                    style="@style/scoringTextViews"
+                    android:text="@string/zero" />
+
+                <TextView
+                    android:id="@+id/team_mudville_ball"
+                    style="@style/scoringTextViews"
+                    android:text="@string/zero" />
+
+                <TextView
+                    android:id="@+id/team_mudville_out"
+                    style="@style/scoringTextViews"
+                    android:text="@string/zero" />
+            </LinearLayout>
+
+
+            <Button
+                style="@style/trackingButtons"
+                android:onClick="addRunForMudville"
+                android:text="@string/run" />
+
+            <Button
+                style="@style/trackingButtons"
+                android:onClick="addStrikeForMudville"
+                android:text="@string/strike" />
+
+            <Button
+                style="@style/trackingButtons"
+                android:onClick="addBallForMudville"
+                android:text="@string/ball" />
+
+            <Button
+                style="@style/trackingButtons"
+                android:onClick="addOutForMudville"
+                android:text="@string/out" />
+        </LinearLayout>
+
+        <View style="@style/teamDivide" />
+
+        <LinearLayout style="@style/teamContainer">
+
+            <TextView
+                style="@style/teamNames"
+                android:text="@string/visitor" />
+
+            <TextView
+                android:id="@+id/team_visitor_score"
+                style="@style/actualScores"
+                android:text="@string/zero" />
+
+            <LinearLayout style="@style/scoreContainer">
+
+                <TextView
+                    android:id="@+id/team_visitor_strike"
+                    style="@style/scoringTextViews"
+                    android:text="@string/zero" />
+
+                <TextView
+                    android:id="@+id/team_visitor_ball"
+                    style="@style/scoringTextViews"
+                    android:text="@string/zero" />
+
+                <TextView
+                    android:id="@+id/team_visitor_out"
+                    style="@style/scoringTextViews"
+                    android:text="@string/zero" />
+            </LinearLayout>
+
+            <Button
+                style="@style/trackingButtons"
+                android:onClick="addRunForVisitor"
+                android:text="@string/run" />
+
+            <Button
+                style="@style/trackingButtons"
+                android:onClick="addStrikeForVisitor"
+                android:text="@string/strike" />
+
+            <Button
+                style="@style/trackingButtons"
+                android:onClick="addBallForVisitor"
+                android:text="@string/ball" />
+
+            <Button
+                style="@style/trackingButtons"
+                android:onClick="addOutForVisitor"
+                android:text="@string/out" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        style="@style/caseyButton"
+        android:onClick="resetScore"
+        android:src="@drawable/casey" />
+
+    <Button
+        style="@style/roundedButtons"
+        android:onClick="newAtBat"
+        android:text="@string/new_batter" />
+
+    <Button
+        style="@style/inningSwitch"
+        android:onClick="resetOuts"
+        android:text="@string/inning_switch" />
+</RelativeLayout>
+
