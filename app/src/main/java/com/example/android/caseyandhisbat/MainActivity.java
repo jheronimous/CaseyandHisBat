@@ -153,8 +153,9 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addStrikeForVisitor(View v) {
         strikeVisitor = strikeVisitor + 1;
-        if(strikeVisitor > 3) strikeVisitor = 0;
+        if(strikeVisitor == 3) strikeVisitor = 0;
         displayForVisitorStrikes(strikeVisitor);
+        displayForVisitorOuts(outVisitor);
     }
 
     /**

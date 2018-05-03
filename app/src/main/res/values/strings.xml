@@ -2,13 +2,22 @@
     //This is the name of the app.
     <string name="app_name">Casey and His Bat</string>
     <string name="action_settings">something here</string>
+    //This is the text for new batter.
     <string name="new_batter">New\nBatter</string>
+    //This is the text for switching innings.
     <string name="inning_switch">Inning\nSwitch</string>
+    //This is the text for an out.
     <string name="out">Out</string>
+    //This is the text for a strike.
     <string name="strike">Strike</string>
+    //This is the text for a ball.
     <string name="ball">Ball</string>
+    //This is the text for a ball.
     <string name="run">Run</string>
+    //This is the text for the zero number, used as initial number for different metrics.
     <string name="zero">0</string>
+    //This is the name of the visiting team.
     <string name="visitor">Visitor</string>
+    //This is the name of the home team.
     <string name="mudvilleHens">Mudville Hens</string>
 </resources>
